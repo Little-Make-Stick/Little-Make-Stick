@@ -229,9 +229,13 @@ div#sidebar_postcategory ul li {
 },0)
 </script>
 <!-- <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script> -->
+<!-- 明日方舟小人 -->
 <!-- <script src="https://blog-static.cnblogs.com/files/blogs/700930/o0olele.js"></script> -->
+<!-- 点击爱心特效 -->
 <!-- <script src="https://blog-static.cnblogs.com/files/blogs/700930/love.js"></script> -->
+<!-- 点击社会主义核心价值观特效 -->
 <!-- <script src="https://blog-static.cnblogs.com/files/blogs/700930/foreach_.js"></script> -->
+<!-- 点击enjoy表情特效 -->
 <!-- <script src="https://blog-static.cnblogs.com/files/blogs/700930/enjoy.js"></script> -->
 <!-- <canvas id="canvas" style="height:220px;width:220px;position:fixed;bottom:0;left:0;" width="220" height="220"></canvas> -->
 <script>
