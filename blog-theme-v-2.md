@@ -91,6 +91,7 @@ footer HTML
 <script src="https://guangzan.gitee.io/awescnb/index.js"></script>
 <script>
   const opts = {
+    //配置主题
     theme: {
       name: 'geek',
       color: '#7ba5cd',
@@ -100,6 +101,7 @@ footer HTML
       headerBackground: 'https://images.cnblogs.com/cnblogs_com/blogs/700930/galleries/2033117/o_2109180850197.jpg',
       log: '',
     },
+    //允许评论表情
     emoji: {
       enable: true,
       buttonIcon: "🥳",
@@ -254,11 +256,13 @@ footer HTML
          },
       ]
     },
+    //启用github
     github: {
       enable: true,
       color: '#ffb3cc',
       url: 'https://github.com/s-mitsuha',
     },
+    //首页个签
     signature: {
       enable: true,
       contents: [
@@ -266,18 +270,22 @@ footer HTML
       "<b>等待着前仆后继,人山人海的那一天。</b>",
       ],
     },
+    //启用图片灯箱
     imagebox: {
       enable: true,
     },
+    //深色主题
     darkMode: {
       enable: true,
       autoDark: false,
       autoLight: false
     },
+    //首页提示框
     notice:{
       enable:true,
       text:['🔯欢迎访问','😜一起学习'],
     },
+    //允许锁屏
     lock: {
       enable: true,
       background: 'https://images.cnblogs.com/cnblogs_com/blogs/700930/galleries/2033117/o_2109180458532.jpg',
@@ -287,6 +295,7 @@ footer HTML
         '就像拓荒者一样,你是第一批被选中涉足这里的人,等待着前仆后继,人山人海的那一天。',
       ],
     },
+    //点击特效
     click: {
       enable: true,
       auto: false,
@@ -294,18 +303,22 @@ footer HTML
       size: 20,
       maxCount: 30,
     },
+    //启用码云
     gitee: {
       enable: true,
       color: '#C71D23',
       url: 'https://gitee.com/s-mitsuha/',
     },
+    //代码主题
     highLight: {
       dark: 'atomOneDark',
       light: 'atomOneLight',
     },
+    //代码行号
     lineNumbers: {
       enable: true,
     },
+    //首页左侧链接
     links: [
       {
         name: 'Github',
@@ -316,6 +329,7 @@ footer HTML
         link: 'https://blog.csdn.net/s_mitsuha',
       },
     ],
+    //博文图片
     postTopimage: {
       enable: true,
       fixed: true,
@@ -367,8 +381,7 @@ footer HTML
     htmlStyle.setProperty('--color-basic-900', '#fff');
     htmlStyle.setProperty('--sidebarItem-hover-color', '#7ba5cd');
     
-
-
+    //控制台打印信息
     console.log('%c # # # # # # # # # # # # # # # # # # # # # # # #','color:#7ba5cd');
     console.log('%c # 🌏Github https://github.com/s-mitsuha','color: #FFC0CB;font-weight: bold;');
     console.log('%c # ⚡博客园 https://www.cnblogs.com/-LemonWater-','color: #9370DB;font-weight: bold;');
@@ -377,6 +390,7 @@ footer HTML
     function randomColor() {
       return "rgb(" + (~~(Math.random() * 255)) + "," + (~~(Math.random() * 255)) + "," + (~~(Math.random() * 255)) + ")";
     }
+    //分类随机颜色
     let cats = document.querySelectorAll('div#sidebar_postcategory ul li a');
     for(let i = 0 ; i < cats.length ; i++){
       let catColor = randomColor()
